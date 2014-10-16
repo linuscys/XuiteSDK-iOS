@@ -106,7 +106,7 @@ Pod::Spec.new do |s|
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
 
-  s.preserve_paths = "XuiteSDK/libXuiteSDK-0.0.1.a"
+  s.preserve_paths = "XuiteSDK/libXuiteSDK.a"
 
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
