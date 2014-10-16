@@ -120,7 +120,7 @@ Pod::Spec.new do |s|
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-  s.library = 'XuiteSDK'
+  s.library = "XuiteSDK"
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -131,8 +131,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => "$(PODS_ROOT)/XuiteSDK-iOS/XuiteSDK" }
-  s.dependency 'AFNetworking', '~> 2.4'
-  s.dependency 'SSKeychain', '~> 1.2'
+  s.xcconfig = { "LIBRARY_SEARCH_PATHS" => "$(PODS_ROOT)/XuiteSDK-iOS/XuiteSDK" }
 
 end
