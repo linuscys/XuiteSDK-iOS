@@ -5,13 +5,7 @@ Pod::Spec.new do |s|
   s.license = {"type"=>"Copyright", "text"=>"Copyright © 2005 - 2014 Internet Service by Xuite"}
   s.authors = {"linuscys"=>"linus.cys@gmail.com"}
   s.homepage = 'http://api.xuite.net'
-  s.description = '                   A longer description of XuiteSDK in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
-'
+  s.description = 'A long description of XuiteSDK.'
   s.requires_arc = true
   s.source = {}
 
