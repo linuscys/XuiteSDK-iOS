@@ -59,6 +59,9 @@
 - (void)addQuotaByCode:(NSString *)pcode
                success:(void (^)(NSDictionary *response, id responseObject))successBlock
                failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failureBlock;
+- (void)getAnnounce:(NSString *)service
+            success:(void (^)(NSDictionary *response, id responseObject))successBlock
+            failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failureBlock;
 - (void)setSSOLoginWithSuccess:(void (^)(NSDictionary *response, id responseObject))successBlock
                        failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failureBlock;
 @end
